@@ -1,0 +1,14 @@
+<div class="Search-bar">
+  <div class="container mt-5" >
+    <div class="input-wrap" style="height: 100px;">
+      <input class="form-control" [(ngModel)]="Shop" type="text" placeholder="ค้นหาเมนูหรือร้านอาหาร"/>
+    </div>
+  </div>
+</div>
+<div class="listbar">
+  <div class="container mt-5">
+    <button type="button" class="btn btn-secondary" style="margin: 0 1rem 2rem 0;"  *ngFor="let city of foods | ListPipe: Shop">
+      {{ city }}
+    </button>
+  </div>
+</div>

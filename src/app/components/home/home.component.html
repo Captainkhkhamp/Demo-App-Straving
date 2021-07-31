@@ -1,0 +1,21 @@
+  <div class="container mt-3">
+<div class="form-group row"></div>
+<div class="form-group row">
+    <input class="form-control me-2" [(ngModel)]="searchValue" type="search" placeholder="Search" aria-label="Search">
+</div>
+</div>
+
+<table class="table">
+  <thead class="thead-dark">
+    <tr style="text-align: center;">
+      <th scope="col">ชื่อร้าน</th>
+      <th scope="col">เมนู</th>
+    </tr>
+  </thead>
+  <tbody >
+    <tr *ngFor="let Clubhome of Home | mod: searchValue" style="text-align: center;">
+      <td scope="col">{{Clubhome.Name}}</td>
+      <td scope="col">{{Clubhome.City}}</td>
+    </tr>
+  </tbody>
+</table>

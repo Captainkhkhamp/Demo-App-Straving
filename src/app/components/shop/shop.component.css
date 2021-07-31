@@ -1,0 +1,17 @@
+.form-control {
+    border-radius: 20px;
+    background-color: #e4e4e4;
+}
+
+.card{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.input-wrap {
+    text-align: center;
+}
+
+.listbar {
+    text-align: center;
+}

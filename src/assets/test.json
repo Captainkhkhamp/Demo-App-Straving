@@ -1,0 +1,26 @@
+[
+    {
+        "ร้านเจ๊ 1":"อาหารตามสั่ง",
+        "ร้านเจ๊ 2":"ก๋วยเตี๋ยว",
+        "ร้านเจ๊ 3":"ยำทะเล",
+        "City":"NBK",
+        "State":"shop10",
+        "Pincode": 123,
+        "MoblieNo": 13489451
+    },
+    {
+        "Name":"manod",
+        "City":"NBK",
+        "City":"LDS",
+        "State":"shop11",
+        "Pincode": 456,
+        "MoblieNo": 7894651
+    },
+    {
+        "Name":"pok",
+        "City":"DCF",
+        "State":"shop12",
+        "Pincode": 789,
+        "MoblieNo": 848151
+    }
+]
